@@ -1,0 +1,38 @@
+body{
+  font-family: Arial, sans-serif;
+  background:#f4f6f8;
+  margin:0;
+}
+.container{
+  max-width:900px;
+  margin:auto;
+  padding:20px;
+}
+input,textarea{
+  width:100%;
+  padding:10px;
+  margin:6px 0;
+}
+button{
+  padding:10px 15px;
+  background:#2563eb;
+  color:white;
+  border:none;
+  cursor:pointer;
+}
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+th,td{
+  border:1px solid #ddd;
+  padding:8px;
+}
+/* style.css */
+.input {
+  @apply border p-2 w-full mb-2 rounded;
+}
+
+.btn {
+  @apply bg-blue-600 text-white p-2 rounded disabled:bg-gray-400;
+}
